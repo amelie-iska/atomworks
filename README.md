@@ -1,7 +1,7 @@
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![PyPI version](https://img.shields.io/pypi/v/atomworks.svg)](https://pypi.org/project/atomworks/)
 [![Python versions](https://img.shields.io/pypi/pyversions/atomworks.svg)](https://pypi.org/project/atomworks/)
-[![Documentation Status](https://img.shields.io/badge/docs-latest-brightgreen.svg)](https://baker-laboratory.github.io/atomworks-dev/latest/index.html)
+[![Documentation Status](https://img.shields.io/badge/docs-latest-brightgreen.svg)](https://rosettacommons.github.io/atomworks/latest/)
 [![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 <div align="center">
@@ -72,7 +72,7 @@ If you are using [uv](https://docs.astral.sh/uv/reference/policies/versioning/) 
 uv pip install "atomworks[ml,openbabel,dev]"
 ```
 
-For more advanced setup options (including how to run workflows via apptainers) see the [full documentation](https://baker-laboratory.github.io/atomworks-dev/latest).
+For more advanced setup options (including how to run workflows via apptainers) see the [full documentation](https://rosettacommons.github.io/atomworks/latest/).
 
 ---
 
@@ -116,7 +116,7 @@ The output of `parse` includes:
 - **assemblies** — Built biological assemblies (each are their own `AtomArrayStack`)
 - **metadata** — Experimental and source information
 
-See [usage examples](https://baker-laboratory.github.io/atomworks-dev/latest/auto_examples/) for more details.
+See [usage examples](https://rosettacommons.github.io/atomworks/latest/auto_examples/) for more details.
 
 If you just want to load a file, you can use the `load_any` function:
 
@@ -299,7 +299,7 @@ pytest tests/ml/test_data_loading_pipelines.py
 ## Contribution
 
 We welcome improvements!  
-Please see the [full documentation](https://baker-laboratory.github.io/atomworks-dev/latest/index.html) for contribution guidelines.
+Please see the [full documentation](https://rosettacommons.github.io/atomworks/latest/index.html) for contribution guidelines.
 
 ## Citation
 
